@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #42a5f5;
+}
+
+form {
+    width: 20%;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+input[type=submit] {
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 30%;
+    border-radius: 5px;
+}
+
+#delete {
+    background-color: orangered;
+}
+
+#edit {
+    background-color: lightslategray;
+}
+
+input[type=submit]:hover, button:hover {
+    transform: scale(1.05);
+}
+
+table {
+    width: 75%;
+    background-color: aliceblue;
+    margin: 10px;
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+td,th {
+    width: 25%;
+    padding: 5px;
+}
+
+tr:nth-child(even), thead>tr {
+    background-color: lightgrey;
+}
+
+td{
+    border: 1px solid black;
+    border-bottom: none;
+}
